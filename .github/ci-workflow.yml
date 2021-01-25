@@ -5,8 +5,7 @@ name: Node CI
 on:
   push:
     paths:
-      - "**Dockerfile**"
-jobs:
+jobs:node-versions
   build:
     runs-on: ubuntu-latest
 
